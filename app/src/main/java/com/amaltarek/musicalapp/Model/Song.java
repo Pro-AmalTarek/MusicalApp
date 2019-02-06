@@ -5,20 +5,20 @@ public class Song {
     /** Number of the Song */
     private int mSongNumber;
 
-    /** Song Name */
-    private String mSongName;
+    /** String resource ID for Song Name */
+    private int mSongName;
 
     /** Audio Resource ID for Song */
     private int mSongResourceID;
 
-    /** Artist Name of the Song */
-    private String mArtistName;
+    /** String resource ID for Artist Name of the Song */
+    private int mArtistName;
 
-    /** Album Name of the song */
-    private String mAlbumName;
+    /** String resource ID for Album Name of the song */
+    private int mAlbumName;
 
     /** Create a Song Object */
-    public Song(int songNumber, String songName, int songResourceID, String artistName, String albumName) {
+    public Song(int songNumber, int songName, int songResourceID, int artistName, int albumName) {
         mSongNumber = songNumber;
         mSongName = songName;
         mSongResourceID = songResourceID;
@@ -30,7 +30,7 @@ public class Song {
         return mSongNumber;
     }
 
-    public String getSongName() {
+    public int getSongName() {
         return mSongName;
     }
 
@@ -38,11 +38,11 @@ public class Song {
         return mSongResourceID;
     }
 
-    public String getArtistName() {
+    public int getArtistName() {
         return mArtistName;
     }
 
-    public String getAlbumName() {
+    public int getAlbumName() {
         return mAlbumName;
     }
 }

@@ -7,17 +7,17 @@ public class Album {
     /** Art Resource ID of the Album */
     private int mAlbumArtResourceID;
 
-    /** Name of The Album */
-    private String mAlbumName;
+    /** String resource ID for Name of The Album */
+    private int mAlbumName;
 
-    /** Artist Name of the Album */
-    private String mArtistName;
+    /** String resource ID for Artist Name of the Album */
+    private int mArtistName;
 
     /** Array List of Songs of the Album */
     private ArrayList<Song> mAlbumSongs;
 
     /** Create Album Object */
-    public Album(int albumArtResourceID, String albumName, String artistName, ArrayList<Song> albumSongs) {
+    public Album(int albumArtResourceID, int albumName, int artistName, ArrayList<Song> albumSongs) {
         mAlbumArtResourceID = albumArtResourceID;
         mAlbumName = albumName;
         mArtistName = artistName;
@@ -28,11 +28,11 @@ public class Album {
         return mAlbumArtResourceID;
     }
 
-    public String getAlbumName() {
+    public int getAlbumName() {
         return mAlbumName;
     }
 
-    public String getArtistName() {
+    public int getArtistName() {
         return mArtistName;
     }
 
