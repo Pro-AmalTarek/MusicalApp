@@ -3,8 +3,8 @@ package com.amaltarek.musicalapp.Model;
 import java.io.Serializable;
 public class Song implements Serializable{
 
-    /** Number of the Song */
-    private int mSongNumber;
+    /** Art of the Song */
+    private int mSongArtResourceID;
 
     /** String resource ID for Song Name */
     private int mSongName;
@@ -20,15 +20,15 @@ public class Song implements Serializable{
 
     /** Create a Song Object */
     public Song(int songNumber, int songName, int songResourceID, int artistName, int albumName) {
-        mSongNumber = songNumber;
+        mSongArtResourceID = songNumber;
         mSongName = songName;
         mSongResourceID = songResourceID;
         mArtistName = artistName;
         mAlbumName = albumName;
     }
 
-    public int getSongNumber() {
-        return mSongNumber;
+    public int getSongArtResourceID() {
+        return mSongArtResourceID;
     }
 
     public int getSongName() {

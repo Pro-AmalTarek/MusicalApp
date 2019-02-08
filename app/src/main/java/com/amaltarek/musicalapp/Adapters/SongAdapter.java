@@ -29,12 +29,14 @@ public class SongAdapter extends ArrayAdapter<Song> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.song_item, parent, false);
         Song currentSong = getItem(position);
 
+        // get position of the View to be Number of that song
         TextView songNumber = convertView.findViewById(R.id.song_number);
         songNumber.setText(String.valueOf(position + 1));
 
         TextView songName = convertView.findViewById(R.id.song_name);
         songName.setText(currentSong.getSongName());
 
+        // Details of the Song : Artist Name - Album Name
         TextView songDetails = convertView.findViewById(R.id.song_details);
         songDetails.setText(getContext().getString(currentSong.getArtistName()) + " - " + getContext().getString(currentSong.getAlbumName()));
 

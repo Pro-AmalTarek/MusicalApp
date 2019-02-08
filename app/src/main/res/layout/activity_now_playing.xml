@@ -4,6 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:gravity="center"
-    tools:context=".NowPlaying">
+    android:orientation="vertical"
+    tools:context=".Activities.NowPlaying">
+
+    <ImageView
+        android:id="@+id/song_art"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/maherzain" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Zamen" />
+
+    <TextView
+        android:id="@+id/song_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/text_background"
+        tools:text="Tamer Hosny" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/prev_song"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="getSong"
+            android:src="@drawable/ic_prev" />
+
+        <ImageView
+            android:id="@+id/play_song"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="getSong"
+            android:src="@drawable/ic_pause" />
+
+        <ImageView
+            android:id="@+id/next_song"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="getSong"
+            android:src="@drawable/ic_next" />
+    </LinearLayout>
+
+
 </LinearLayout>

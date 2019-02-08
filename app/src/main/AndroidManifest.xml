@@ -9,17 +9,26 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NowPlaying" />
-        <activity android:name=".SongsActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/songs"></activity>
+        <activity android:name=".Activities.NowPlaying"
+            android:parentActivityName=".Activities.MainActivity"
+            android:label="@string/playing"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activities.SongsActivity"
+            android:parentActivityName=".Activities.MainActivity"
+            android:label="@string/songs"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

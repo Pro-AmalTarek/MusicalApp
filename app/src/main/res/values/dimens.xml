@@ -9,5 +9,8 @@
     <!-- play icon size -->
     <dimen name="play_icon_size">24dp</dimen>
 
+    <!-- Album Art Size -->
+    <dimen name="album_art_size">150dp</dimen>
+
 
 </resources>

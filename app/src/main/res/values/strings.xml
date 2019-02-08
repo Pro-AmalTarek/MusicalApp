@@ -8,6 +8,9 @@
     <!-- Category name for Songs [CHAR LIMIT=20] -->
     <string name="songs">SONGS</string>
 
+    <!-- Category name for Playing Song Now [CHAR LIMIT=20] -->
+    <string name="playing">Listening ...</string>
+
     <!-- region Massoud Curtis Album-->
     <!-- Album Name for Massoud Curtis [CHAR LIMIT=20] -->
     <string name="album_tabssam">Tabssam</string>
@@ -24,14 +27,51 @@
 
     <!-- region Maher Zain Album-->
     <!-- Album Name for Maher Zain [CHAR LIMIT=20] -->
-    <string name="album_Thank">Thank for Allah 2009</string>
+    <string name="album_Thank">Thank for Allah</string>
 
     <!-- Artist Name of Thank for Allah Album [CHAR LIMIT=20] -->
     <string name="artist_maher">Maher Zain</string>
 
     <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
     <string name="song_ya_napi">Ya Nabi Salam Alayka</string>
+
+    <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
+    <string name="insha_allah">Insha Allah</string>
+
+    <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
+    <string name="palestine_will_be_free">Palestine Will Be Free</string>
+
+    <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
+    <string name="thank_you_allah">Thank You Allah</string>
+
+    <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
+    <string name="the_chosen_one">The Chosen One</string>
+
+    <!-- Song Name of Thank for Allah Album [CHAR LIMIT=100] -->
+    <string name="always_be_there">Always Be There</string>
     <!--endregion-->
 
+    <!-- region Forgive Me Album-->
+    <!-- Album Name for Maher Zain [CHAR LIMIT=20] -->
+    <string name="album_forgive_me">Forgive Me</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="number_one_for_me">Number One For Me</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="mawlaya">Mawlaya</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="forgive_me">Forgive Me</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="assalamu_alayka">Assalamu Alayka</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="masha_allah">Masha Allah</string>
+
+    <!-- Song Name of Forgive Me Album [CHAR LIMIT=100] -->
+    <string name="assalamu_alayka_arabic">Assalamu Alayka (Arabic)</string>
+    <!--endregion-->
 
 </resources>
