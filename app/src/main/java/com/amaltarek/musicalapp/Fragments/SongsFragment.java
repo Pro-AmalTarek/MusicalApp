@@ -52,12 +52,12 @@ public class SongsFragment extends Fragment {
             mSongs.add(new Song(R.drawable.maherzain, R.string.thank_you_allah, R.raw.thank_you_allah, R.string.artist_maher, R.string.album_Thank));
             mSongs.add(new Song(R.drawable.maherzain, R.string.always_be_there, R.raw.always_be_there, R.string.artist_maher, R.string.album_Thank));
             mSongs.add(new Song(R.drawable.maherzain, R.string.the_chosen_one, R.raw.the_chosen_one, R.string.artist_maher, R.string.album_Thank));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.number_one_for_me, R.raw.number_one_for_me, R.string.artist_maher, R.string.forgive_me));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.assalamu_alayka, R.raw.assalamu_alayka, R.string.artist_maher, R.string.forgive_me));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.masha_allah, R.raw.masha_allah, R.string.artist_maher, R.string.forgive_me));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.mawlaya, R.raw.mawlaya, R.string.artist_maher, R.string.forgive_me));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.forgive_me, R.raw.forgive_me, R.string.artist_maher, R.string.forgive_me));
-            mSongs.add(new Song(R.drawable.maherzain, R.string.assalamu_alayka_arabic, R.raw.assalamu_alayka_arabic, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.number_one_for_me, R.raw.number_one_for_me, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.assalamu_alayka, R.raw.assalamu_alayka, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.masha_allah, R.raw.masha_allah, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.mawlaya, R.raw.mawlaya, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.forgive_me, R.raw.forgive_me, R.string.artist_maher, R.string.forgive_me));
+            mSongs.add(new Song(R.drawable.forgive_me, R.string.assalamu_alayka_arabic, R.raw.assalamu_alayka_arabic, R.string.artist_maher, R.string.forgive_me));
 
 
             // to Shuffle ArrayList of Songs

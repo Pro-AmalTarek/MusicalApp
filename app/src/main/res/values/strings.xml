@@ -9,7 +9,7 @@
     <string name="songs">SONGS</string>
 
     <!-- Category name for Playing Song Now [CHAR LIMIT=20] -->
-    <string name="playing">Listening ...</string>
+    <string name="playing">Listening Now</string>
 
     <!-- region Massoud Curtis Album-->
     <!-- Album Name for Massoud Curtis [CHAR LIMIT=20] -->
