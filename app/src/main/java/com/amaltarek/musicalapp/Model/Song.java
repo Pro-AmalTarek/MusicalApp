@@ -1,6 +1,7 @@
 package com.amaltarek.musicalapp.Model;
 
-public class Song {
+import java.io.Serializable;
+public class Song implements Serializable{
 
     /** Number of the Song */
     private int mSongNumber;

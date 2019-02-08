@@ -38,15 +38,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initAlbums() {
-       mAlbums.add(new Album(R.drawable.Tabassam, R.string.album_tabssam, R.string.artist_massoud, getAlbumSongs(1)));
+       mAlbums.add(new Album(R.drawable.massoudcurtis, R.string.album_tabssam, R.string.artist_massoud, getAlbumSongs(1)));
     }
 
     private ArrayList<Song> getAlbumSongs(int position){
         ArrayList<Song> songs = new ArrayList<>();
         switch(position){
             case 1:
-                songs.add(new Song(1, R.string.song_tabssam, R.raw.Tabssam, R.string.artist_massoud, R.string.album_tabssam));
-                songs.add(new Song(2, R.string.song_assalatu, R.raw.Assalatu_Wassalamu, R.string.artist_massoud, R.string.album_tabssam));
+                songs.add(new Song(1, R.string.song_tabssam, R.raw.tabssam, R.string.artist_massoud, R.string.album_tabssam));
+                songs.add(new Song(2, R.string.song_assalatu, R.raw.assalatu_wassalamu, R.string.artist_massoud, R.string.album_tabssam));
                 break;
             default:
                 return songs;

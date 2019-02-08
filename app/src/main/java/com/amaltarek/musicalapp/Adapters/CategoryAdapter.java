@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.amaltarek.musicalapp.Fragments.AlbumsFragment;
+import com.amaltarek.musicalapp.Fragments.SongsFragment;
 import com.amaltarek.musicalapp.R;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
@@ -26,7 +28,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-        return null;
+        if(position == 0){
+            return new SongsFragment();
+        }else{
+            return new AlbumsFragment();
+        }
     }
 
     /**

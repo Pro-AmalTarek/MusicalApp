@@ -1,6 +1,6 @@
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">MusicalApp</string>
+    <string name="app_name">Musical App</string>
 
     <!-- Category name for Albums [CHAR LIMIT=20] -->
     <string name="albums">ALBUMS</string>
@@ -12,13 +12,13 @@
     <!-- Album Name for Massoud Curtis [CHAR LIMIT=20] -->
     <string name="album_tabssam">Tabssam</string>
 
-    <!-- Artist Name of Tabssam Album [CHAR LIMIT=20] -->
+    <!-- Artist Name of tabssam Album [CHAR LIMIT=20] -->
     <string name="artist_massoud">Massoud Curtis</string>
 
-    <!-- Song Name of Tabssam Album [CHAR LIMIT=100] -->
+    <!-- Song Name of tabssam Album [CHAR LIMIT=100] -->
     <string name="song_tabssam">Tabssam</string>
 
-    <!-- Song Name of Tabssam Album [CHAR LIMIT=100] -->
+    <!-- Song Name of tabssam Album [CHAR LIMIT=100] -->
     <string name="song_assalatu">Assalatu Wassalamu</string>
     <!--endregion-->
 
